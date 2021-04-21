@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import JobCardList from './JobCardList';
 import { ReactComponent as Navbar } from '../Assets/Icons/navbar.svg';
 

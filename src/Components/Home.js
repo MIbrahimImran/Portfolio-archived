@@ -1,11 +1,4 @@
 import React from 'react';
-import { Canvas } from '@react-three/fiber';
-import {
-  Stars,
-  Sphere,
-  PerspectiveCamera,
-  OrbitControls,
-} from '@react-three/drei';
 import { motion } from 'framer-motion';
 
 import { ReactComponent as ScrollIcon } from '../Assets/Icons/chevrons-down.svg';
@@ -45,13 +38,6 @@ export default function Home() {
               <ScrollIcon></ScrollIcon>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="relative">
-        <div className="absolute">
-          <Canvas>
-            <Stars></Stars>
-          </Canvas>
         </div>
       </div>
     </div>
