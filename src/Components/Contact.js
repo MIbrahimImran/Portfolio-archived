@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="h-screen">
       <div className="flex justify-center h-full items-center">
         <div className="flex flex-col space-y-12 mb-36">
-          <div className="self-center text-primary font-extrabold uppercase text-sm">
+          <div className="self-center text-primary font-bold uppercase text-sm">
             Get In Touch
           </div>
           <div className="self-center font-bold text-6xl">Contact</div>

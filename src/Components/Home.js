@@ -14,9 +14,7 @@ export default function Home() {
             transition={{ type: 'spring' }}
             className="space-y-9"
           >
-            <div className="text-primary font-extrabold uppercase">
-              About me
-            </div>
+            <div className="text-primary font-bold uppercase">About me</div>
             <div className="font-bold text-4xl">Writing code since 2018</div>
             <div className="font-semibold text-lg text-secondary">
               Lorem Ipsum is simply dummy text of the printing and type setting
@@ -26,7 +24,7 @@ export default function Home() {
               text eversince the 1500s.
             </div>
             <div className="flex justify-end items-center">
-              <div className="w-24 h-0.5 rounded mr-3 bg-gradient-to-l from-white"></div>
+              <div className="w-12 sm:w-24 h-0.5 rounded mr-3 bg-gradient-to-l from-white"></div>
               <div className="italic text-lg">Ibrahim Imran</div>
             </div>
           </motion.div>

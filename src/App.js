@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { Stars } from '@react-three/drei';
+import { Stars, Text } from '@react-three/drei';
 import Home from './Components/Home';
 import About from './Components/About';
 import Experience from './Components/Experience';
@@ -22,19 +22,26 @@ function App() {
             saturation={1}
             fade
           ></Stars>
+          <Text
+            color="white" // default
+            anchorX="center" // default
+            anchorY="middle" // default
+          >
+            These Stars are real
+          </Text>
         </Canvas>
       </div>
       <div className="relative px-20">
         <Navbar></Navbar>
-        <div className="px-14">
+        <div className="sm:px-14">
           <Home></Home>
           <About></About>
           <Experience></Experience>
           <Work></Work>
           <Contact></Contact>
-          <Footer></Footer>
         </div>
         <Mininav></Mininav>
+        <Footer></Footer>
       </div>
     </div>
   );

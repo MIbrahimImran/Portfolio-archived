@@ -19,6 +19,7 @@ module.exports = {
       backgroundColor: (theme) => ({
         ...theme('colors'),
         primary: '#111219',
+        secondary: '#29B7FF',
       }),
       backgroundImage: (theme) => ({
         stars: "url('/src/Assets/Images/stars.jpg')",
