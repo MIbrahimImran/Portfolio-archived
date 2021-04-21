@@ -1,0 +1,37 @@
+{
+  "jobList": [
+    {
+      "id": 1,
+      "company": "Google",
+      "role": " Software Engineer",
+      "keyPoints": [
+        "Using C/C++ I completed most of the work with 21% reduction in time.",
+        "Implemented microservices design principles for google maps 2028 and added support.",
+        "Completed the development of UI/UX design."
+      ],
+      "period": "4/16/21 - Present"
+    },
+    {
+      "id": 1,
+      "company": "Netflix",
+      "role": " Software Engineer",
+      "keyPoints": [
+        "Using C/C++ I completed most of the work with 21% reduction in time.",
+        "Implemented microservices design principles for google maps 2028 and added support.",
+        "Completed the development of UI/UX design."
+      ],
+      "period": "4/16/21 - Present"
+    },
+    {
+      "id": 1,
+      "company": "Amaxon",
+      "role": " Software Engineer",
+      "keyPoints": [
+        "Using C/C++ I completed most of the work with 21% reduction in time.",
+        "Implemented microservices design principles for google maps 2028 and added support.",
+        "Completed the development of UI/UX design."
+      ],
+      "period": "4/16/21 - Present"
+    }
+  ]
+}
