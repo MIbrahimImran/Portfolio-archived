@@ -5,9 +5,9 @@ import { ReactComponent as ScrollIcon } from '../Assets/Icons/chevrons-down.svg'
 
 export default function Home() {
   return (
-    <div className="flex border h-screen">
-      <div className="h-full w-5/12">
-        <div className="flex h-2/4 pt-36 border-2 border-red-600">
+    <div className="flex h-screen">
+      <div className="h-full w-full">
+        <div className="flex h-2/4 pt-36">
           <motion.div
             initial={{ x: -100 }}
             animate={{ x: 0 }}
@@ -31,7 +31,7 @@ export default function Home() {
             </div>
           </motion.div>
         </div>
-        <div className="flex items-end h-2/4 justify-center border-2 border-blue-600">
+        <div className="flex items-end h-2/4 justify-center">
           <div className="mb-24">
             <div className="font-light uppercase">Scroll</div>
             <div className="pl-2.5">

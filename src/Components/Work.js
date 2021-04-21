@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Work() {
   return (
-    <div className="border h-screen">
+    <div className="h-screen">
       <div className="flex h-full">
-        <div className="w-5/12 border-2 border-red-600">
-          <div className="h-2/4 border">
+        <div className="w-5/12">
+          <div className="h-2/4">
             <div className="mt-10 space-y-8">
               <div className="text-primary font-extrabold uppercase">
                 About me
@@ -29,7 +29,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-          <div className="flex items-center h-2/4 border">
+          <div className="flex items-center h-2/4">
             <div>
               <div className="font-bold text-xl uppercase">Stack</div>
               <div className="mt-4">
@@ -43,7 +43,7 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="flex justify-end w-1/12 h-full border-2 border-green-400">
+        <div className="flex justify-end w-1/12 h-full">
           <div className="self-center space-y-36">
             <div className="flex justify-center items-center h-9 w-9 rounded-full border-2 border-primary">
               01
@@ -57,12 +57,12 @@ export default function Work() {
             </div>
           </div>
         </div>
-        <div className="w-5/12 border-2 border-blue-600">
+        <div className="w-5/12">
           <div className="flex h-full justify-center">
             <div className="self-center border h-96 w-96">Picture</div>
           </div>
         </div>
-        <div className="w-1/12 border-2 border-pink-600">End</div>
+        <div className="w-1/12">End</div>
       </div>
     </div>
   );
