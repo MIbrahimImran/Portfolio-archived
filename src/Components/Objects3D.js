@@ -20,7 +20,7 @@ function BackgroundSphere() {
 
   useFrame((state, delta) => (mesh.current.rotation.z += 0.01));
   return (
-    <mesh ref={mesh} position={[3, -2, 0]}>
+    <mesh ref={mesh} position={[0, -2, 0]}>
       <boxGeometry args={[1, 2, 1]} />
       <meshStandardMaterial color={'red'} />
     </mesh>
