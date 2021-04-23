@@ -1,46 +1,33 @@
+import React from 'react';
 import { Canvas } from '@react-three/fiber';
-import { Stars, Text } from '@react-three/drei';
+
 import Home from './Components/Home';
 import About from './Components/About';
-import Experience from './Components/Experience';
-import Work from './Components/Work';
+// import Experience from './Components/Experience';
+// import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
-import Mininav from './Components/Mininav';
+// import Mininav from './Components/Mininav';
+import { BackgroundStars, BackgroundSphere } from './Components/Objects3D';
 
 function App() {
   return (
     <div className="relative h-screen text-white">
-      <div className="fixed bg-galaxy bg-cover bg-center	 h-full w-full">
+      <div className="fixed bg-galaxy bg-cover bg-center h-full w-full">
         <Canvas>
-          <Stars
-            radius={100}
-            depth={100}
-            count={5000}
-            factor={4}
-            saturation={1}
-            fade
-          ></Stars>
-          <Text
-            color="white" // default
-            anchorX="center" // default
-            anchorY="middle" // default
-          >
-            These Stars are real
-          </Text>
+          <pointLight position={[1, 1, 0]} />
+          <BackgroundStars></BackgroundStars>
+          <BackgroundSphere></BackgroundSphere>
         </Canvas>
       </div>
-      <div className="relative px-20">
+      <div className="relative px-8 sm:px-20">
         <Navbar></Navbar>
         <div className="sm:px-14">
           <Home></Home>
           <About></About>
-          <Experience></Experience>
-          <Work></Work>
           <Contact></Contact>
         </div>
-        <Mininav></Mininav>
         <Footer></Footer>
       </div>
     </div>

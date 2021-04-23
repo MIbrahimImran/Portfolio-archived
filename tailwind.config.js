@@ -7,13 +7,13 @@ module.exports = {
         muli: ['muli', 'sans-serif'],
       },
       textColor: {
-        primary: '#29B7FF',
+        primary: '#e71224',
         secondary: '#B1BED1',
       },
       borderColor: (theme) => ({
         ...theme('colors'),
         DEFAULT: theme('colors.gray.300', 'currentColor'),
-        primary: '#29B7FF',
+        primary: '#e71224',
         secondary: '#B1BED1',
       }),
       backgroundColor: (theme) => ({
