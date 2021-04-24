@@ -17,7 +17,7 @@ export default function Contact() {
         </div>
         <a href={`mailto:${'work@ibrahimimran.com'}`}>
           <button
-            className="self-center border w-64 h-16 font-bold uppercase "
+            className="self-center border w-64 h-16 font-bold uppercase hover:bg-white hover:text-black"
             title="support@example.com"
           >
             Send Email

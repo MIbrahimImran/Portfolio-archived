@@ -3,8 +3,8 @@ import { Canvas } from '@react-three/fiber';
 
 import Home from './Components/Home';
 import About from './Components/About';
-// import Experience from './Components/Experience';
-// import Work from './Components/Work';
+import Experience from './Components/Experience';
+import Work from './Components/Work';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
@@ -25,7 +25,11 @@ function App() {
         <Navbar></Navbar>
         <div className="sm:px-14">
           <Home></Home>
-          <About></About>
+          <div className="space-y-72">
+            <About></About>
+            <Work></Work>
+            <Experience></Experience>
+          </div>
           <Contact></Contact>
         </div>
         <Footer></Footer>

@@ -1,10 +1,16 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 export default function About() {
   return (
     <div className="flex items-center h-screen">
       <div className="space-y-36">
-        <div className="space-y-8">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ opacity: { duration: 0.7 }, duration: 0.6 }}
+          className="space-y-8"
+        >
           <div className="text-primary font-bold uppercase text-sm sm:text-base">
             Intro
           </div>
@@ -16,8 +22,13 @@ export default function About() {
             <br className="hidden md:block"></br>
             text eversince the 1500s.
           </div>
-        </div>
-        <div className="space-y-8">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ opacity: { duration: 0.7 }, duration: 0.6 }}
+          className="space-y-8"
+        >
           <div className="text-primary font-bold uppercase text-sm sm:text-base">
             Skill
           </div>
@@ -32,7 +43,7 @@ export default function About() {
             text eversince the 1500s.
           </div>
           <div>JavaScript </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

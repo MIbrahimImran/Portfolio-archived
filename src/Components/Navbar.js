@@ -34,18 +34,18 @@ export default function Navbar(props) {
             rel="noopener noreferrer"
             href="https://google.com"
           >
-            <GithubIcon className="stroke-current hover:text-primary cursor-pointer"></GithubIcon>
+            <GithubIcon className="stroke-current hover:text-primary cursor-pointer hidden sm:block"></GithubIcon>
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://google.com"
           >
-            <LinkedInLogo className="stroke-current hover:text-primary cursor-pointer"></LinkedInLogo>
+            <LinkedInLogo className="stroke-current hover:text-primary cursor-pointer hidden sm:block"></LinkedInLogo>
           </a>
         </div>
         <div
-          className="hover:text-primary font-black uppercase cursor-pointer hidden sm:block"
+          className="hover:text-primary text-lg font-black uppercase cursor-pointer"
           onClick={() => window.open(Resume)}
         >
           Resume
