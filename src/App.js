@@ -1,13 +1,13 @@
 import React from 'react';
 import { Canvas } from '@react-three/fiber';
 
-import Home from './Components/Home';
-import About from './Components/About';
-import Experience from './Components/Experience';
-import Work from './Components/Work';
-import Contact from './Components/Contact';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
+// import Home from './Components/Home';
+// import About from './Components/About';
+// import Experience from './Components/Experience';
+// import Work from './Components/Work';
+// import Contact from './Components/Contact';
+// import Navbar from './Components/Navbar';
+// import Footer from './Components/Footer';
 // import Mininav from './Components/Mininav';
 import { BackgroundStars, BackgroundSphere } from './Components/Objects3D';
 
@@ -21,7 +21,7 @@ function App() {
           <BackgroundSphere></BackgroundSphere>
         </Canvas>
       </div>
-      <div className="relative px-8 sm:px-20">
+      {/* <div className="relative px-8 sm:px-20">
         <Navbar></Navbar>
         <div className="sm:px-14">
           <Home></Home>
@@ -33,7 +33,7 @@ function App() {
           <Contact></Contact>
         </div>
         <Footer></Footer>
-      </div>
+      </div> */}
     </div>
   );
 }
